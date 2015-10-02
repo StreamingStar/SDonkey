@@ -1,0 +1,14 @@
+<?xml version="1.0.1" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.sportsdonkey" name="Sports Donkey Addon Repository" version="1.0.0" provider-name="Sports Donkey">
+	<extension point="xbmc.addon.repository" name="Sports Donkey Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/StreamingStar/SDonkey/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/StreamingStar/SDonkey/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/StreamingStar/SDonkey/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Download and install Sports Donkey</summary>
+		<description>Download and install Sports Donkey</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.SportsDonkey"
+       name="Sports Donkey"
+       version="2.1.0"
+       provider-name="MetalKettle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="1.1.0"/>
+	<import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">Sports Donkey</summary>
+    <description lang="en">Live streams, Video On Demand</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.RUDOS"
+       name="RUDOS.tv"
+       version="1.0.0"
+       provider-name="RUDOS">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="1.1.0"/>
+	<import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    <summary lang="en">RUDOS.tv</summary>
+    <description lang="en">Live streams, Video On Demand</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.sportsdonkey" name="Sports Donkey Addon Repository" version="1.0.0" provider-name="Sports Donkey">
+	<extension point="xbmc.addon.repository" name="Sports Donkey Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/StreamingStar/SDonkey/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/StreamingStar/SDonkey/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/StreamingStar/SDonkey/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Download and install Sports Donkey</summary>
+		<description>Download and install Sports Donkey</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
